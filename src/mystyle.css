@@ -1,0 +1,72 @@
+.App{
+    border: solid black;
+    width: 50%;
+    height: 600px;
+    padding: 10px;
+    top: 50%;
+    left:50%;
+    margin-left: 25%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 3px;
+}
+
+.employeelist-div{
+    border: solid blue;
+    width: 50%;
+    height: 600px;
+}
+
+.employeedisplay-div{
+    border: solid red;
+    width: 50%;
+    height: 600px;
+}
+
+.heading-main-div{
+    border: solid black;
+    height: 50px;
+    width: 98%;
+    margin: 2px;
+}
+
+.employeedetails-div{
+    border: solid red;
+    width: 100%;
+    height: 78px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.employee-div{
+    border: solid green;
+    height: auto;
+}
+
+img{
+    height: 78px;
+    width: 78px;
+}
+
+.namedesig-div{
+    text-align: left;
+    width: 70%;
+}
+
+.empcontact-div{
+    border: solid pink;
+    height: auto;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+
+.arrowimg{
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+}

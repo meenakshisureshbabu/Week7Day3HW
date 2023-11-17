@@ -13,13 +13,13 @@
 }
 
 .employeelist-div{
-    border: solid blue;
+    border: solid orange;
     width: 50%;
     height: 600px;
 }
 
 .employeedisplay-div{
-    border: solid red;
+    border: solid brown;
     width: 50%;
     height: 600px;
 }
@@ -32,9 +32,9 @@
 }
 
 .employeedetails-div{
-    border: solid red;
-    width: 100%;
-    height: 78px;
+    border:2px solid red;
+    width: 98%;
+    height: 76px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -43,19 +43,21 @@
 
 .employeedetails-large-div{
     border: solid black;
-    width: 100%;
+    width: 99%;
     height: 130px;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
     padding-top: 20px;
-    font-size: larger;
+    font-size: large;
     font-weight: bold;
 }
 
 .employee-div{
-    border: solid green;
     height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1px;
 }
 
 .employeedetails-div img{
@@ -79,16 +81,17 @@
 }
 
 .empcontact-div{
-    border: solid pink;
+    border: solid lightgray;
     height: auto;
     text-align: left;
+    font-size: small;
     display: flex;
     justify-content: space-between;
     padding-left: 10px;
 }
 
 .arrowimg{
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     margin-top: 20px;
 }

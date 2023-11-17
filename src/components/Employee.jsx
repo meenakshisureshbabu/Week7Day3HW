@@ -5,7 +5,7 @@ function Employee(props) {
     <div className="employee-div">
       
             {props.details.map((emp) => {
-             return <EmpName detail = {emp} onClick=""/>
+             return <EmpName classnme="employeedetails-div" detail = {emp} onClick=""/>
             })}
       
     </div>

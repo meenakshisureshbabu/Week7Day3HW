@@ -8,7 +8,7 @@ function EmployeeDisplay(props) {
     const data = employeelist[id]; 
   return (
     <div>
-        <EmpName detail={employeelist[id]}/>
+        <EmpName classnme="employeedetails-large-div" detail={employeelist[id]}/>
         <EmployeeContact displayName={"CALL Office"} data={data.office}/>
         <EmployeeContact displayName={"CALL Mobile"} data={data.mobile}/>
         <EmployeeContact displayName={"SMS"} data={data.sms}/>

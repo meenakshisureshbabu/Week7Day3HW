@@ -41,14 +41,36 @@
 
 }
 
+.employeedetails-large-div{
+    border: solid black;
+    width: 100%;
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    font-size: larger;
+    font-weight: bold;
+}
+
 .employee-div{
     border: solid green;
     height: auto;
 }
 
-img{
+.employeedetails-div img{
     height: 78px;
     width: 78px;
+}
+
+.employeedetails-large-div img{
+    margin-left: 5px;
+    height: 108px;
+    width: 108px;
+}
+
+.employeedetails-large-div .namedesig-div{
+    text-align: center;
 }
 
 .namedesig-div{

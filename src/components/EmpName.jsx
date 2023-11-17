@@ -2,7 +2,7 @@ import React from 'react'
 
 function EmpName(props) {
   return (
-    <div className='employeedetails-div'>
+    <div className={props.classnme}>
         <img src={props.detail.image} alt=""></img>
         <div className='namedesig-div'>
             <p>{props.detail.name}</p>
